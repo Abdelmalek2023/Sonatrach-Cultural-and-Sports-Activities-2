@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd client && pnpm build",
+  "outputDirectory": "client/dist/public",
+  "framework": "react",
+  "nodeVersion": "18.x",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
